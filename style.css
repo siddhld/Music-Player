@@ -102,15 +102,15 @@ input[type="range"] {
   -webkit-appearance: none;
   width: 43vh;
   outline: none;
-  height: 3px;
+  height: 2px;
   margin: 0 15px;
   border-radius: 9px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 3.5vh;
+  height: 3.5vh;
   background: #1971c2;
   border-radius: 50%;
   cursor: pointer;
@@ -122,14 +122,14 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .main button {
-  padding: 10px 12px;
+  padding: 2vh 2vh;
   margin: 0 2vh;
 }
 
 .right .middle button {
   border: none;
-  height: 70px;
-  width: 70px;
+  height: 8vh;
+  width: 8vh;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -158,6 +158,8 @@ input[type="range"]::-webkit-slider-thumb {
   margin-top: 13vh;
   border: none;
   border-radius: 9px;
+  font-size: 1.8vh;
+  padding: 1.4vh 1.8vh;
 }
 
 .right button:hover {
@@ -165,12 +167,12 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .right i::before {
-  font-size: 20px;
+  font-size: 2.6vh;
 }
 
 .left .volume {
   width: 100%;
-  height: 30px;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,6 +325,16 @@ input[type="range"]::-webkit-slider-thumb {
   .main {
     grid-template-columns: 1fr;
     height: 93vh;
+  }
+
+  .glass {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 166, 0, 0.553),
+      rgb(255, 166, 0)
+    );
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
   }
 
   .main #logo {
