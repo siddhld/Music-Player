@@ -214,13 +214,13 @@ input[type="range"]::-webkit-slider-thumb {
 
   .right #title {
     text-transform: capitalize;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     margin-top: -4rem;
   }
 
   .right #artist {
     text-transform: capitalize;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-top: 1rem;
   }
 
@@ -242,15 +242,15 @@ input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 20rem;
     outline: none;
-    height: 3px;
+    height: 2.5px;
     margin: 0 15px;
     border-radius: 9px;
   }
 
   input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background: #1971c2;
     border-radius: 50%;
     cursor: pointer;
@@ -348,7 +348,7 @@ input[type="range"]::-webkit-slider-thumb {
   .main {
     grid-template-columns: 1fr;
     height: 93vh;
-    width: 95vh;
+    width: 65vh;
   }
 
   .glass {
@@ -358,7 +358,7 @@ input[type="range"]::-webkit-slider-thumb {
       rgb(255, 166, 0)
     );
     backdrop-filter: blur(5px);
-    border-radius: 12px;
+    border-radius: 17px;
   }
 
   .main #logo {
@@ -366,7 +366,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .left img {
-    width: 50vw;
+    width: 65vw;
     height: 30vh;
     margin-top: -4rem;
   }
@@ -413,22 +413,22 @@ input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 15rem;
     outline: none;
-    height: 3px;
+    height: 2px;
     margin: 0 15px;
     border-radius: 9px;
   }
 
   input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background: #1971c2;
     border-radius: 50%;
     cursor: pointer;
   }
 
   .right input[type="range"] {
-    width: 30vh;
+    width: 35vh;
   }
 
   .right #auto {
