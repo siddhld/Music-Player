@@ -348,7 +348,7 @@ input[type="range"]::-webkit-slider-thumb {
   .main {
     grid-template-columns: 1fr;
     height: 93vh;
-    width: 65vh;
+    width: 56vh;
   }
 
   .glass {
@@ -366,9 +366,14 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .left img {
-    width: 65vw;
+    width: 70vw;
     height: 30vh;
     margin-top: -4rem;
+  }
+
+  .left .volume p,
+  .left .volume i {
+    display: none;
   }
 
   #volume {
@@ -381,7 +386,7 @@ input[type="range"]::-webkit-slider-thumb {
   .right #title {
     text-transform: capitalize;
     font-size: 1.6rem;
-    margin-top: -3.5rem;
+    margin-top: -2.5rem;
   }
 
   .right #artist {
@@ -400,8 +405,8 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .right .middle button {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .right .duration {
@@ -428,7 +433,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .right input[type="range"] {
-    width: 35vh;
+    width: 38vh;
   }
 
   .right #auto {
