@@ -348,7 +348,7 @@ input[type="range"]::-webkit-slider-thumb {
   .main {
     grid-template-columns: 1fr;
     height: 93vh;
-    width: 56vh;
+    width: 46vh;
   }
 
   .glass {
@@ -386,7 +386,7 @@ input[type="range"]::-webkit-slider-thumb {
   .right #title {
     text-transform: capitalize;
     font-size: 1.6rem;
-    margin-top: -2.5rem;
+    margin-top: -3.5rem;
   }
 
   .right #artist {
