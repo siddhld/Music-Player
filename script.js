@@ -125,7 +125,7 @@ let All_song = [
     singer: "Maroon 5",
   },
   {
-    name: "Night changes (slowed reverb)",
+    name: "Night changes",
     path: "music/Night changes (slowed reverb).mp3",
     img: "images/img 18.jpg",
     singer: "One Direction",
@@ -167,7 +167,7 @@ let All_song = [
     singer: "Harry Styles",
   },
   {
-    name: "S U R R E N D E R - (slowed down)",
+    name: "S U R R E N D E R",
     path: "music/S U R R E N D E R - (slowed down).mp3",
     img: "images/img 25.jpg",
     singer: "Natalie Taylor",
@@ -197,7 +197,7 @@ let All_song = [
     singer: "Eminem",
   },
   {
-    name: "Thinking out loud (slowed reverb)",
+    name: "Thinking out loud",
     path: "music/Thinking out loud (slowed reverb).mp3",
     img: "images/img 29.jpg",
     singer: "Ed Sheeran",
