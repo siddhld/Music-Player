@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "League Spartan", sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
 
 body {
@@ -98,7 +98,7 @@ body {
   margin-top: 16vh;
 }
 
-input[type="range"] {
+input[type='range'] {
   -webkit-appearance: none;
   width: 43vh;
   outline: none;
@@ -107,7 +107,7 @@ input[type="range"] {
   border-radius: 9px;
 }
 
-input[type="range"]::-webkit-slider-thumb {
+input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 2.5vh;
   height: 2.5vh;
@@ -116,7 +116,7 @@ input[type="range"]::-webkit-slider-thumb {
   cursor: pointer;
 }
 
-.right input[type="range"] {
+.right input[type='range'] {
   width: 60vh;
 }
 
@@ -238,7 +238,7 @@ input[type="range"]::-webkit-slider-thumb {
     margin-top: -18.5vh;
   }
 
-  input[type="range"] {
+  input[type='range'] {
     -webkit-appearance: none;
     width: 20rem;
     outline: none;
@@ -247,7 +247,7 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 9px;
   }
 
-  input[type="range"]::-webkit-slider-thumb {
+  input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 18px;
     height: 18px;
@@ -256,7 +256,7 @@ input[type="range"]::-webkit-slider-thumb {
     cursor: pointer;
   }
 
-  .right input[type="range"] {
+  .right input[type='range'] {
     width: 50vh;
   }
 
@@ -313,7 +313,7 @@ input[type="range"]::-webkit-slider-thumb {
     width: 7vh;
   }
 
-  input[type="range"] {
+  input[type='range'] {
     -webkit-appearance: none;
     width: 15rem;
     outline: none;
@@ -322,7 +322,7 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 9px;
   }
 
-  input[type="range"]::-webkit-slider-thumb {
+  input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 15px;
     height: 15px;
@@ -331,7 +331,7 @@ input[type="range"]::-webkit-slider-thumb {
     cursor: pointer;
   }
 
-  .right input[type="range"] {
+  .right input[type='range'] {
     width: 40vh;
   }
 
@@ -414,7 +414,7 @@ input[type="range"]::-webkit-slider-thumb {
     bottom: 60px;
   }
 
-  input[type="range"] {
+  input[type='range'] {
     -webkit-appearance: none;
     width: 15rem;
     outline: none;
@@ -423,7 +423,7 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 9px;
   }
 
-  input[type="range"]::-webkit-slider-thumb {
+  input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 18px;
     height: 18px;
@@ -432,7 +432,7 @@ input[type="range"]::-webkit-slider-thumb {
     cursor: pointer;
   }
 
-  .right input[type="range"] {
+  .right input[type='range'] {
     width: 38vh;
   }
 

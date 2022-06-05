@@ -13,13 +13,10 @@
       <p id="logo">
         <i class="fa fa-music" aria-hidden="true"> Music Player</i>
       </p>
-      <!-- <audio src="music/5 Prateek Kuhad Songs.mp3" controls></audio> -->
-      <!-- <img src="images/img 1.jpg" alt="" /> -->
       <!-- left part -->
       <div class="left">
         <!-- song image  -->
         <img id="track_image" />
-
         <div class="volume">
           <p id="volume_show">50</p>
           <i
@@ -54,28 +51,13 @@
         <!-- middle part  -->
         <div class="middle">
           <button onclick="previous_song()" id="pre">
-            <i
-              class="fas fa-backward"
-              id="prev"
-              title="Previous"
-              aria-hidden="true"
-            ></i>
+            <i class="fas fa-step-backward id="prev" aria-hidden="true"></i>
           </button>
           <button onclick="justplay()" id="play">
-            <i
-              class="fas fa-play main-button"
-              id="play"
-              title="Play"
-              aria-hidden="true"
-            ></i>
+            <i class="fas fa-play" id="play" aria-hidden="true"></i>
           </button>
           <button onclick="next_song()" id="next">
-            <i
-              class="fas fa-forward"
-              id="next"
-              title="Next"
-              aria-hidden="true"
-            ></i>
+            <i class="fas fa-step-forward" id="next" aria-hidden="true"></i>
           </button>
         </div>
 
@@ -90,10 +72,7 @@
             onchange="change_duration()"
           />
         </div>
-        <button id="auto" onclick="autoplay_switch()">
-          Auto play
-          <!-- <i class="fa fa-circle-o-notch" aria-hidden="true"></i> -->
-        </button>
+        <button id="auto" onclick="autoplay_switch()">Auto play</button>
       </div>
     </div>
     <script src="script.js"></script>
