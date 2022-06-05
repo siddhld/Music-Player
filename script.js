@@ -22,10 +22,22 @@ let track = document.createElement('audio');
 
 let All_song = [
   {
-    name: '5 Prateek Kuhad Songs',
-    path: 'music/5 Prateek Kuhad Songs.mp3',
-    img: 'images/img 1.jpg',
-    singer: 'Prateek Kuhad',
+    name: 'Khaabon Ke Parinday',
+    path: 'music/Khaabon Ke Parinday.mp3',
+    img: 'images/img 11.jpg',
+    singer: 'Mohit Alyssa Mendonsa & Mohit Chauhan',
+  },
+  {
+    name: 'Kho Gaye Hum Kaha',
+    path: 'music/Kho Gaye Hum Kaha.mp3',
+    img: 'images/img 12.jpg',
+    singer: 'Jasleen Royal',
+  },
+  {
+    name: 'Levitating',
+    path: 'music/Levitating.mp3',
+    img: 'images/img 15.jpg',
+    singer: 'Dua Lipa',
   },
   {
     name: 'Apocalypse',
@@ -82,18 +94,6 @@ let All_song = [
     singer: 'Demi Lovato',
   },
   {
-    name: 'Khaabon Ke Parinday',
-    path: 'music/Khaabon Ke Parinday.mp3',
-    img: 'images/img 11.jpg',
-    singer: 'Mohit Alyssa Mendonsa & Mohit Chauhan',
-  },
-  {
-    name: 'Kho Gaye Hum Kaha',
-    path: 'music/Kho Gaye Hum Kaha.mp3',
-    img: 'images/img 12.jpg',
-    singer: 'Jasleen Royal',
-  },
-  {
     name: 'Khwaja Mere Khwaja',
     path: 'music/Khwaja Mere Khwaja.mp3',
     img: 'images/img 13.jpg',
@@ -106,10 +106,10 @@ let All_song = [
     singer: 'Passenger',
   },
   {
-    name: 'Levitating',
-    path: 'music/Levitating.mp3',
-    img: 'images/img 15.jpg',
-    singer: 'Dua Lipa',
+    name: '5 Prateek Kuhad Songs',
+    path: 'music/5 Prateek Kuhad Songs.mp3',
+    img: 'images/img 1.jpg',
+    singer: 'Prateek Kuhad',
   },
   {
     name: 'Lose Yourself',
