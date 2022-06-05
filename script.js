@@ -215,8 +215,8 @@ function load_track(index_no) {
   track.load();
 
   timer = setInterval(range_slider, 1000);
-  total = All_song.length;
-  present = index_no + 1;
+  // total = All_song.length;
+  // present = index_no + 1;
 }
 
 load_track(index_no);
